@@ -18,7 +18,7 @@ public class ConfigReader {
 			
 			list = stream.collect(Collectors.toList());
 			
-			Field[] fields = Constants.class.getDeclaredFields();
+			Field[] fields = WebConstants.class.getDeclaredFields();
 			for(int configIndex = 0; configIndex < list.size(); configIndex++) {
 				for(int fieldIndex = 0; fieldIndex < fields.length; fieldIndex++) {
 					//System.out.println(fields[fieldIndex].getType().getSimpleName().equalsIgnoreCase("String"));

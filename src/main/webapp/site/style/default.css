@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+}
+
+.header {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ababab;
+    padding: 8px;
+    box-shadow: 0px 0px 5px #ababab;
+}
+
+.banner-desc {
+    padding: 5px 0 5px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
+
+.banner {
+    height: 55px;
+    width: 200px;
+}

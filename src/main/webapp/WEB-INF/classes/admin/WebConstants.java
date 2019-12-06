@@ -1,6 +1,6 @@
 package admin;
 
-public class Constants {
+public class WebConstants {
 	
 	public static String DATABASE_SQL_URL = "";
 	public static String DATABASE_SQL_USER = "";
